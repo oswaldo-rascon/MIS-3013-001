@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sumof3", "Sumof3\Sumof3.csproj", "{8702024E-6D02-481A-9E6E-CA3D16B70035}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8702024E-6D02-481A-9E6E-CA3D16B70035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8702024E-6D02-481A-9E6E-CA3D16B70035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8702024E-6D02-481A-9E6E-CA3D16B70035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8702024E-6D02-481A-9E6E-CA3D16B70035}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {931EFA85-751D-4913-87C7-6E9E21BD0EB5}
+	EndGlobalSection
+EndGlobal
