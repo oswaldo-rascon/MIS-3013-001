@@ -9,6 +9,8 @@ namespace Sumof3
             double firstNumber = 1;
             double secondNumber = 2;
             double thirdNumber = 3.2;
+            const double seven = 7.777;
+
 
             Console.WriteLine("Please enter first number. >>");
             firstNumber = double.Parse(Console.ReadLine());
@@ -19,7 +21,13 @@ namespace Sumof3
             Console.WriteLine("Please enter third number.>>" );
              thirdNumber = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Answer is {0}", firstNumber + secondNumber + thirdNumber);
+            double sum = firstNumber + secondNumber + thirdNumber;
+
+            double finalAnswer = sum * seven;
+            Console.WriteLine($"The sum of these three numbers is {sum.ToString("N3")}");
+            Console.WriteLine($"The sum multiplied by 7.777 is {finalAnswer.ToString("N3")}");
+
+            
             Console.ReadKey();
 
         }
